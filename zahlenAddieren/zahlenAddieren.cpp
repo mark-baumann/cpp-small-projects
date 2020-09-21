@@ -5,6 +5,8 @@ using namespace std;
 
 
 // Prototypen deklarieren
+//Daten werden im integerArray gespeichert
+//maxNumElements gibt die maximale mögliche Anzahl im Array an
 int readArray(int integerArray[], int maxNumElements);
 int sumArray(int integerArray[], int numElements);
 void displayArray(int integerArray[], int numElements);

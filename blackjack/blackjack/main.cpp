@@ -16,6 +16,8 @@ void delcards() {
       srand(time(NULL));
       card1 = rand() % 11 + 1;
       card2 = rand() % 11 + 1;
+      card3 = rand() % 11 + 1;
+      card4 = rand() % 11 + 1;
   }
 
 void youwin() {
@@ -31,6 +33,7 @@ void youlose() {
 void dealThirdCard() {
     srand(time(NULL));
     card3 = rand() % 11 + 1;
+    return;
 }
 
 void dealFourthCard() {
@@ -45,11 +48,12 @@ void dealerPlay() {
 int main() {
   
     void dealcards();
+    void dealThirdCard();
+    void dealFourthCard();
     void youlose();
     void youwin();
-    void dealThirdCard();
     void dealerPlay();
-    void dealFourthCard();
+    
     
     cout<<"Press enter to get the first 2 cards";
     cin.get();
@@ -77,7 +81,7 @@ int main() {
     }
     
     cout<<"3. Karte " <<card3 <<endl;
-    cardtotal = card3 + cardtotal;
+    cardtotal = cardtotal + card3;
     
     cout<<"Dein Karten stand ist: " <<cardtotal <<endl;
     cin.get();

@@ -21,20 +21,31 @@ int main(int argc, const char * argv[]) {
         out.append("_");
     }
     
+    int failed = 0;
+    
+   
     
     cout<<"Folgendes Wort wird gesucht" <<out <<endl;
-    while(true) {
+    while(out.find("_")!= string::npos) {
         char input;
         cin>>input;
                  
-                 
-                 for (int i=0; i < name.length(); i++) {
-                     if(name[i] == input) {
-                         out[i] = input;
-                     }
-                 }
+        if (name.find(input) == string::npos){
+            failed++;
+        }else{
+            for (int i=0; i < name.length(); i++) {
+                                if(name[i] == input) {
+                                    out[i] = input;
+                                }
+                            }
+        }
+                      
+                      
+                      
+                      
+                
     
-        cout<<"Folgendes Wort wird gesucht:" <<out <<endl;
+        cout<<"Folgendes Wort wird gesucht:" <<out <<endl <<"Du hast noch" <<(10 - failed) <<"Fehlversuche übrig";
     
     }
     

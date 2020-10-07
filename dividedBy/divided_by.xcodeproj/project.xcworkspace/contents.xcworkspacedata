@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:dividedBy.xcodeproj">
+      location = "self:/Users/mark/Desktop/cpp-small-projects/dividedBy/divided_by.xcodeproj">
    </FileRef>
 </Workspace>

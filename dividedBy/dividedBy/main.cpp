@@ -15,8 +15,10 @@ int main(int argc, const char * argv[]) {
     
     
     int zahl;
-    cout<<"gebe eine zahl ein";
+    cout<<"gebe eine zahl ein: ";
     cin>>zahl;
+    
+    int teilbar = 0;
     
     for(int i=2; i<zahl; i++) {
         
@@ -25,13 +27,14 @@ int main(int argc, const char * argv[]) {
         
         
         if (zahl % i == 0) {
-            cout<<"Die Zahl ist durch "<<i<<"teilbar"<<endl;
+            teilbar = 1;
+            cout<<"Die Zahl ist durch "<<i<<" teilbar"<<endl;
         }
         
-        if (zahl % i == 1) {
-            cout<<"die zahl ist eine Primzahl"<<i<<endl;
-        }
         
+        if(teilbar = 0) {
+            cout<<"es ist eine Primzahl";
+        }
         
       
         

@@ -14,15 +14,17 @@ using namespace std;
 
 
 
+
+
 int main(int argc, const char * argv[]) {
     
     //Array erzeugen
     array<array<int, 3>, 3> field;
     
     //Daten einfügen
-    field[0] = {1, 0, 0};
-    field[1] = {1, 0, 0};
-    field[2] = {1, 0, 0};
+    field[0] = {5, 0, 0};
+    field[1] = {0, 5, 0};
+    field[2] = {0, 0, 5};
     
     //ausgeben wer gewonnen hat
     for (int i = 0; i <= 2; i++) {
@@ -35,6 +37,14 @@ int main(int argc, const char * argv[]) {
         if(field[0][i] !=0 && field[0][i] == field[1][i] && field[0][i] == field[2][i]){
             cout<< field[0][i] << " hat gewonnen \n";
         }
+    }
+    
+    if(field[0][0] != 0 && field[0][0] == field[1][1] && field[0][0] == field[2][2]) {
+        cout<<field[0][0] <<" hat gewonnen \n";
+    }
+    
+    if(field[0][2] != 0 && field[0][2] == field[1][1] && field[0][2] == field[2][0]) {
+        cout<<field[0][2] <<"hat gewonnen \n";
     }
     
     

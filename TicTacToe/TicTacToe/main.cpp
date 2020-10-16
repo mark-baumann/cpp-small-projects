@@ -31,8 +31,12 @@ int main(int argc, const char * argv[]) {
         }
             
     }
+    for (int i = 0; i <=2; i++) {
+        if(field[0][i] !=0 && field[0][i] == field[1][i] && field[0][i] == field[2][i]){
+            cout<< field[0][i] << " hat gewonnen \n";
+        }
+    }
     
-    if(field[0][i] !=0 && field)
     
     //Aufmalen des Array Spielfelds
     cout << field[0][0] << " | " << field[0][1] << " | " << field[0][2] <<endl;

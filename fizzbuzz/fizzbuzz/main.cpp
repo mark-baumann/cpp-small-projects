@@ -11,21 +11,30 @@
 
 using namespace std;
 
+//Programm das bei 3 Fizz sagt, bei 5 Buzz und bei zahlen die durch 3 und 5 teilbar sind Fizzbuzz
 
-void fizzbuzz(int n) {
-    
-    
-    
-}
 
 
 int main(int argc, const char * argv[]) {
     
-    cout << "fizbuzz(10):" << endl;
-       fizzbuzz(10);
-       cout << "-------------" << endl;
-       cout << "fizbuzz(20):" << endl;
-       fizzbuzz(20);
+  
+    
+    for(int i = 1; i <=100; i++){
+
+      if(i % 3 == 0 && i % 5 == 0){
+        std::cout << "FizzBuzz\n";
+      }
+      else if(i % 3 == 0){
+        std::cout << "Fizz\n";
+      }
+      else if(i % 5 == 0){
+        std::cout << "Buzz\n";
+      }
+      else{
+        std::cout << i << "\n";
+      }
+    }
+   
     
     
     return 0;

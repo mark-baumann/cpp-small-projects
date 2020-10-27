@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D80A362252E30EF00FFCE83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D80A361252E30EF00FFCE83 /* main.cpp */; };
+		4D577ACB254837EC0031D968 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D577ACA254837EC0031D968 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D80A35E252E30EF00FFCE83 /* funktionen_ueberladen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = funktionen_ueberladen; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D80A361252E30EF00FFCE83 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4D577ACA254837EC0031D968 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4D80A35E252E30EF00FFCE83 /* max_zahl_finden */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = max_zahl_finden; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +38,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D577AC9254837EC0031D968 /* max zahl finden */ = {
+			isa = PBXGroup;
+			children = (
+				4D577ACA254837EC0031D968 /* main.cpp */,
+			);
+			path = "max zahl finden";
+			sourceTree = "<group>";
+		};
 		4D80A355252E30EF00FFCE83 = {
 			isa = PBXGroup;
 			children = (
-				4D80A360252E30EF00FFCE83 /* funktionen_ueberladen */,
+				4D577AC9254837EC0031D968 /* max zahl finden */,
 				4D80A35F252E30EF00FFCE83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +57,17 @@
 		4D80A35F252E30EF00FFCE83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D80A35E252E30EF00FFCE83 /* funktionen_ueberladen */,
+				4D80A35E252E30EF00FFCE83 /* max_zahl_finden */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4D80A360252E30EF00FFCE83 /* funktionen_ueberladen */ = {
-			isa = PBXGroup;
-			children = (
-				4D80A361252E30EF00FFCE83 /* main.cpp */,
-			);
-			path = funktionen_ueberladen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D80A35D252E30EF00FFCE83 /* funktionen_ueberladen */ = {
+		4D80A35D252E30EF00FFCE83 /* max_zahl_finden */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D80A365252E30EF00FFCE83 /* Build configuration list for PBXNativeTarget "funktionen_ueberladen" */;
+			buildConfigurationList = 4D80A365252E30EF00FFCE83 /* Build configuration list for PBXNativeTarget "max_zahl_finden" */;
 			buildPhases = (
 				4D80A35A252E30EF00FFCE83 /* Sources */,
 				4D80A35B252E30EF00FFCE83 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = funktionen_ueberladen;
+			name = max_zahl_finden;
 			productName = funktionen_ueberladen;
-			productReference = 4D80A35E252E30EF00FFCE83 /* funktionen_ueberladen */;
+			productReference = 4D80A35E252E30EF00FFCE83 /* max_zahl_finden */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D80A359252E30EF00FFCE83 /* Build configuration list for PBXProject "funktionen_ueberladen" */;
+			buildConfigurationList = 4D80A359252E30EF00FFCE83 /* Build configuration list for PBXProject "max_zahl_finden" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D80A35D252E30EF00FFCE83 /* funktionen_ueberladen */,
+				4D80A35D252E30EF00FFCE83 /* max_zahl_finden */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D80A362252E30EF00FFCE83 /* main.cpp in Sources */,
+				4D577ACB254837EC0031D968 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +258,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D80A359252E30EF00FFCE83 /* Build configuration list for PBXProject "funktionen_ueberladen" */ = {
+		4D80A359252E30EF00FFCE83 /* Build configuration list for PBXProject "max_zahl_finden" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D80A363252E30EF00FFCE83 /* Debug */,
@@ -267,7 +267,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D80A365252E30EF00FFCE83 /* Build configuration list for PBXNativeTarget "funktionen_ueberladen" */ = {
+		4D80A365252E30EF00FFCE83 /* Build configuration list for PBXNativeTarget "max_zahl_finden" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D80A366252E30EF00FFCE83 /* Debug */,

@@ -49,5 +49,5 @@ int maximum(int a, int b, int c, int d) {
     return a;
 }
 int main(int argc, const char * argv[]) {
-    cout << maximum(1, 2, 3) << endl;
+    cout << maximum(1, 2, 3, 4) << endl;
 }

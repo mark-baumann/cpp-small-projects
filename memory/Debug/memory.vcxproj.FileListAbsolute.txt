@@ -1,0 +1,2 @@
+\\vmware-host\Shared Folders\Schreibtisch\memory\Debug\memory.exe
+\\vmware-host\Shared Folders\Schreibtisch\memory\Debug\memory.pdb
